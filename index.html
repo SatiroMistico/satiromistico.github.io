@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Encriptador</title>
+
+    <!--aqui se tiene se tiene que linkear la pagina de inicio-->
+
+</head>
+
+<body>
+
+
+    <header>
+        <img src="Imagenes/Frame 6.png" class="Logo" alt="Imagen de logo">
+    </header>
+
+    <main>
+
+        <!--Aqui se crea la primera seccion-->
+        <section>
+
+            <textarea class="text-area" cols="26" rows="5" placeholder="Ingrese el texto aqui"></textarea>
+
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+
+            <!--Aqui se secrean los botones de encriptar y desencriptar-->
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+
+        </section>
+
+        <!--Aqui se crea la segunda seccion-->
+        <section>
+
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+
+            <div>
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--poner footer con redes sociales-->
+    <footer>
+        <div class="iconos">
+            <a href="https://www.linkedin.com/in/alejandro-chac%C3%B3n-g%C3%B3mez-0b4818259/" target="_blank">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://github.com/SatiroMistico" target="_blank">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://www.instagram.com/ale_chacon_09/?hl=es-la" target="_blank">
+                <i class='bx bxl-instagram'></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
